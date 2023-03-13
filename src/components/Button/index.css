@@ -1,0 +1,16 @@
+.converter__button {
+  width: calc(40px + 5 * ((100vw - 319px) / 1601));
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  font-size: calc(14px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  background-color: rgb(235, 226, 226);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 15px 0;
+}
+.converter__button:hover {
+  -webkit-transform: scale(99%);
+          transform: scale(99%);
+  background-color: rgb(207, 198, 198);
+}

@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.295);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exchange-info {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 15px;
+}
+
+.exchange-info__flag {
+  height: calc(25px + 5 * ((100vw - 319px) / 1601));
+  aspect-ratio: 4/3;
+  margin-right: 7px;
+}
+
+.exchange-info__rate {
+  font-size: calc(14px + 3 * ((100vw - 319px) / 1601));
+  font-weight: 700;
+}
